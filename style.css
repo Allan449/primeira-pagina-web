@@ -1,0 +1,271 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 50px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a 
+{
+    color: #ffff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #ffff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/*----------------banner section------------------------*/
+#banner
+{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    
+}
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 100px;
+    margin-top: 20px;
+}
+.play-btn
+{
+    width: 40px;
+    margin: 20px;
+}
+#banner a 
+{
+    color: #fff;
+    text-decoration: none;
+}
+.img-fluid
+{
+    width: 300px;
+    margin: 20px;
+}
+.bottom-img
+{
+    width: 100%;
+}
+
+/*----------serviços-----------------*/
+.serviços
+{
+    padding: 100px;
+}
+.serviços-img
+{
+    width: 100px;
+    margin-top: 20px;   
+}
+.serviços
+{
+    padding: 20px;
+    
+}
+.serviços h4
+{
+    padding: 5px;
+    margin-top:  25px;
+    text-transform: uppercase;
+}
+
+.title::before
+{
+    content: '';
+    background: #7b1798;
+    height: 3px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+#serviços .btn-primary
+{
+    margin-bottom: 80px;
+    box-shadow: none;
+    padding-top: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+
+
+/*-------------------------quem-somos section--------------------------*/
+#quem-somos
+{
+    background: #f8f9fa;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.quem-title
+{
+    font-size: 40px;
+    font-weight: 600px;
+    margin-top: 8%;
+    margin-left: 30px;
+}
+#quem-somos ul li
+{
+    margin: 10px 0;
+}
+#quem-somos ul 
+{
+    margin-left: 50px;
+}
+.img-fluid
+{
+    margin-left: 150px;
+}
+
+
+/*------------------contatos section-------------------------------*/
+#contatos
+{
+    margin: 100px 0;
+}
+.contatos
+{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contatos img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.detalhes-do-usuario
+{
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+/*------------------social-media section-------------------------------*/
+#social-media
+{
+    background: #f8f9fa;
+    padding: 10px 0;
+}
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img
+{
+    width: 60px;
+    transition: 0.4s;
+    margin: 0px 30px 30px 0;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+
+/*------------------rodapé section-------------------------------*/
+#rodape
+{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;  
+}
+.rodape-img
+{
+    width: 100%;
+}
+.rodape-box
+{
+    padding: 50px;
+}
+.rodape-box img
+{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.rodape-box .fa
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.rodape-box .form-control
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.rodape-box .btn-primary
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+hr
+{
+    background-color: #fff;
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
